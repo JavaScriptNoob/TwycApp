@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.7.5/angular-route.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=a5986e1a-eb84-4024-98fa-934c8fadec20&lang=ru_RU" type="text/javascript"></script>
+    <script>
+       
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDq9pr3L6F6OqpB3dxIjgKz8-Y4e77vJSw",
+        authDomain: "oioioi-8aa5b.firebaseapp.com",
+        databaseURL: "https://oioioi-8aa5b.firebaseio.com",
+        projectId: "oioioi-8aa5b",
+        storageBucket: "oioioi-8aa5b.appspot.com",
+        messagingSenderId: "743144200050"
+    };
+    firebase.initializeApp(config);</script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+   
+    
+    <title>Authenthification webpage</title>
+</head>
+<body ng-app="myApp">
+  <div ng-view class="container center">
+
+  </div>
+   
+    
+</body>
+</html>
