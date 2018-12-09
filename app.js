@@ -1,8 +1,7 @@
 var myApp = angular.module('myApp',['firebase','ngRoute']);
 <<<<<<< HEAD
 
-=======
->>>>>>> authorisation is clear/регистрация закончена
+
 myApp.config(function($routeProvider){
     $routeProvider
         .when('/',{
@@ -14,7 +13,7 @@ myApp.config(function($routeProvider){
             controller:"loginCtrl"
         });
 });
-<<<<<<< HEAD
+
 
 myApp.controller('mainController',function($scope){
 
@@ -36,7 +35,7 @@ function init(){
         zoom: 7
     });
 }
-=======
+
 myApp.controller('mainController',function($scope){
 
 })
