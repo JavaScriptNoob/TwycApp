@@ -38,4 +38,4 @@ function init(){
 myApp.controller('mainController',function($scope){
 
 })
->>>>>>> authorisation is clear/регистрация закончена
+
