@@ -4,11 +4,11 @@ var myApp = angular.module('myApp',['firebase','ngRoute']);
 myApp.config(function($routeProvider){
     $routeProvider
         .when('/',{
-            templateUrl:"../src/home.html",
+            templateUrl:"src/home.html",
             controller:'mainController'
         })
         .when("/login",{
-            templateUrl:"../src/login.html",
+            templateUrl:"src/login.html",
             controller:"loginCtrl"
         });
 });
